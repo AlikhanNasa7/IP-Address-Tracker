@@ -1,0 +1,65 @@
+.maindata{
+    width: 80%;
+    margin: 0;
+    background-color: white;
+    z-index: 100000;
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    border-radius: 20px;
+    display: flex;
+    padding: 1.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.datasegment:last-of-type{
+    border: white;
+}
+
+.datasegment{
+    height: 100px;
+    padding-inline: 1rem;
+    flex: 1;
+    border-right: 1px solid #8A949E;
+    padding-top: 0;
+}
+.datasegment >p{
+    margin: 0;
+
+}
+.datasegment >h2{
+    margin-bottom: 0;
+    
+}
+
+@media (max-width:700px) {
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    .maindata{
+        flex-direction: column;
+        height: fit-content;
+        font-size: 14px;
+        gap: 20px;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .datasegment{
+        height: fit-content;
+        border-right: 0;
+    }
+    .datasegment >h2{
+        margin-bottom: 0;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width:800px){
+    h2{
+        font-size: 1.2rem;
+    }
+}

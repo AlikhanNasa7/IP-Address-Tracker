@@ -1,0 +1,33 @@
+
+.search-bar{
+    height: 50px;
+    max-width: 500px;
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+input{
+    height: inherit;
+    width: 400px;
+    border: 0;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+    padding: 10px;
+    font-size: 18px;
+}
+button{
+    background-color: hsl(0, 0%, 17%);
+    height: inherit;
+    width: 50px;
+    border: 0;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 39%);
+}
